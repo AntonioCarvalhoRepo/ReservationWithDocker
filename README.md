@@ -71,4 +71,4 @@ curl -X 'PATCH' \
 - **PgAdmin**: [Access](http://localhost:8081/browser/)
   - UserName = admin@admin.com
   - Password = admin
-- **Swagger API Documentation**: [Access](http://localhost:8080/reservation/swagger-ui/index.html#/)
+- **Swagger API Documentation**: [Access](http://localhost:8080/library/swagger-ui.html)
