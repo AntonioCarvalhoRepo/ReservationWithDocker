@@ -1,0 +1,5 @@
+insert into books (id,title,author,isbn,copies) values ('c1ffe15d-1fca-4ff1-936c-8fbb0714f448','Lusiadas','Camoes','0-7087-3852-4',10) ON CONFLICT (id)  DO NOTHING;
+insert into books (id,title,author,isbn,copies) values ('a5413653-cfc6-446e-90e7-1f5c7366e19f','Smarty','James','0-7087-3852-5',0) ON CONFLICT (id)  DO NOTHING;
+insert into books (id,title,author,isbn,copies) values ('f823034a-445e-4608-ac8e-2ddefb9d982f','Testy','Doe','0-7087-3852-6',1) ON CONFLICT (id)  DO NOTHING;
+insert into books (id,title,author,isbn,copies) values ('00c42ad2-86d9-402d-b6aa-3db2c43e016a','Cool','Robert','0-7087-3852-7',5) ON CONFLICT (id)  DO NOTHING;
+insert into books (id,title,author,isbn,copies) values ('9ff3c249-2b27-49a5-a920-306e6ff60d3b','Java','Simba','0-7087-3852-8',5) ON CONFLICT (id)  DO NOTHING;
